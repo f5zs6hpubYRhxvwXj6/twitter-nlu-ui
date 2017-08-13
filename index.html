@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bundle.js"></script>
+
+<head>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container col-lg-8 col-lg-offset-2">
+
+        <!-- Header -->
+        <div class="jumbotron">
+              <h1>Twitter-NLU</h1>
+              <p>Perform Natural Language Understanding on Twitter Feeds</p>
+        </div>
+
+        <!-- Input -->
+        <div class="input-group">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Analyse</button>
+            </span>
+            <input type="text" class="form-control" placeholder="Twitter Username...">
+        </div>
+
+
+        <h3>Results</h3>
+
+        <!-- Results -->
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+          <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+          <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <h3>HOME</h3>
+            <p>Some content.</p>
+          </div>
+          <div id="menu1" class="tab-pane fade">
+            <h3>Menu 1</h3>
+            <p>Some content in menu 1.</p>
+          </div>
+          <div id="menu2" class="tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Some content in menu 2.</p>
+          </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
